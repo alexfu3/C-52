@@ -1,0 +1,56 @@
+h1{
+    color:rgb(8, 129, 24)
+}
+.header * {
+    border: solid;
+} 
+.header{
+    background-color: mintcream;
+    display:flex;
+    justify-content:space-evenly;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.AllGames{
+    background-color:#00FF00;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+h2,p{
+    text-align:center;
+}
+body{
+    background-color:royalblue;
+}
+a:link{
+    color:turquoise;
+}
+a:visited{
+  color:darkolivegreen;  
+}
+.menu{
+    margin-right: 30px;
+}
+.menu{
+    margin-left: 20px;
+}
+.Games{
+    position:relative;
+}
+/*.Games p{
+    position:absolute;
+    top:75%;
+    left:75%;
+    transform: translate(-75%,-75%);
+    opacity:0;  
+}*/
+
+
